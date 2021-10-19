@@ -10,8 +10,6 @@
 
 题号见网址中的problemid
 
-如下
+如下 problemid = 276
 
 http://106.15.36.190/oj/user/takeItrainExam.jsp?examId=243&problemId=276&catId=25&continueTrain=yes
-
-## 
