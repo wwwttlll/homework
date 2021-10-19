@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.vue": "vue",
+        "*.wpy": "vue",
+        "*.wxml": "html",
+        "*.wxss": "css",
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "iosfwd": "cpp",
+        "*.tcc": "cpp",
+        "valarray": "cpp"
+    }
+}
