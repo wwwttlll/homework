@@ -4,7 +4,6 @@ string s;
 int main(){
     ios::sync_with_stdio(false);
     while(getline(cin,s)){
-        
         string ss;
         int maxn = 0;
         string ans;
@@ -20,6 +19,10 @@ int main(){
                 }
                 ss.clear();
             }
+        }
+        if(ss.size() > maxn){
+            maxn = ss.size();
+            ans = ss;
         }
         cout << maxn << " " << ans << endl;
     }
