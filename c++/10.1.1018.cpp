@@ -6,24 +6,23 @@ long long read(){
     while(ch>='0'&&ch<='9') ret=ret*10+ch-'0',ch=getchar();
     return ret*f;
 }
-/*
-void fun(int **a,int n){
-    for(int i = 0; i <= n; i++){
-        cout << a[i][10];
+vector<int> a[1011];
+int ans = 0;
+void dfs(int x,int step){
+    ans = max(ans,step);
+    for(int i = 0; i < a[x].size(); i++){
+        dfs(a[x][i],step + 1);
     }
 }
 int main(){
-    fun((int**)c,3,3);
-    return 0;
-}*/
-void fun(int (**a)[100],int n){
+    int n;
+    cin >> n;
     for(int i = 1; i <= n; i++){
-        for(int j = 1; j <= n; j++){
-            cout << a[i][j];
-        }
+        int x;
+        cin >> x;
+        a[x].push_back(i);
     }
-}
-int main(){
-    int c[100][100] = {0};
-    fun(c,10);
+    dfs(0,0);
+    cout << ans << endl;
+    return 0;
 }
