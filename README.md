@@ -15,3 +15,7 @@
 如下 problemid = 276
 
 http://106.15.36.190/oj/user/takeItrainExam.jsp?examId=243&problemId=276&catId=25&continueTrain=yes
+
+更新
+
+面向对象题目在Object-oriented目录下
