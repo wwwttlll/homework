@@ -1,8 +1,8 @@
 # homework
 
-## 代码仅供参考，禁止抄袭，如有发现，后果自负，本人不承担任何责任。
+## 代码仅供参考
 
-代码丑陋，不喜勿喷，如有hack 联系email ： wwwttlll@outlook.com
+代码丑陋，不喜勿喷 联系email ： wwwttlll@outlook.com
 
 大一上学期 dhuoj上的题目在c++目录下
 
